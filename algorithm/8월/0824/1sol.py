@@ -1,4 +1,9 @@
 from collections import deque
+# BFS로 풀 예정
+# 최대 높이가 9임으로 1~9를 for문으로 돌면서 높이보다 낮은 곳을 1씩 count할 예정
+# BFS를 돌다가, 범위를 넘어간다면, 높이로 가둬져있지 않다고 판단, cnt를 모두 버림
+# 범위를 벗어나지 않는다면 answer에 더해줌
+
 dr = [1,-1,0,0]
 dc = [0,0,1,-1]
 def bfs(row,col,h):
