@@ -1,3 +1,4 @@
+
 n,k = map(int,input().split())
 arr = [i for i in range(k+1)]
 pn = []
@@ -8,6 +9,7 @@ for i in range(2,len(arr)):
         if n <= arr[i] <= k+1:
             print(arr[i])
         arr[i] = 0
+
 
 
 
