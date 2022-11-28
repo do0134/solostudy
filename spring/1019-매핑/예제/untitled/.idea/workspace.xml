@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33627c6-a306-47cb-b454-b351e5010683" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../algorithm/10월/1024/1sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../algorithm/10월/1024/2sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../algorithm/10월/1027/1sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1020-spring+jpa/jpashop/src/main/java/jpabook/jpashop/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1020-spring+jpa/jpashop/src/main/java/jpabook/jpashop/domain/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../algorithm/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../algorithm/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../algorithm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../algorithm/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -89,6 +90,7 @@
       <updated>1666112273288</updated>
       <workItem from="1666112274560" duration="2241000" />
       <workItem from="1666190911563" duration="1143000" />
+      <workItem from="1666922804152" duration="24000" />
     </task>
     <servers />
   </component>
