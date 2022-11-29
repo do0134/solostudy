@@ -5,12 +5,10 @@ class RandomizedSet:
 
     def __init__(self):
         self.random_set = {}
-        self.element = []
 
     def insert(self, val: int) -> bool:
         if val not in self.random_set or self.random_set[val] == 0:
             self.random_set[val] = 1
-            self.element.append(val)
             return True
         return False
 
@@ -21,7 +19,7 @@ class RandomizedSet:
         return True
 
     def getRandom(self) -> int:
-        random_list = list(set(self.element))
+        random_list = list(set(self.random_set.keys()))
         while True:
             temp = random.choice(random_list)
             if self.random_set[temp] == 1:
