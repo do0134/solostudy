@@ -30,3 +30,19 @@ class Solution:
         odd.next = evenNode.next
         even.next = None
         return oddNode.next               
+
+class Solution:
+    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head == None : 
+            return head
+        
+        odd = head
+        even = head.next
+        even_head = head.next
+        
+        while even and even.next : 
+            odd.next, even.next = odd.next.next, even.next.next
+            odd, even = odd.next, even.next
+  
+        odd.next = even_head
+        return head
