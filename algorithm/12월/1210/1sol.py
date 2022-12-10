@@ -1,5 +1,5 @@
 # leetcode 1339. Maximum Product of Splitted Binary Tree
-
+# preorder를 쓴 다음, sum_list인자를 total//2에 뺀 값으로 대입하면 보다 시간을 줄일 수 있을듯 하다.
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
