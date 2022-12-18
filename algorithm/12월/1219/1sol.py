@@ -1,3 +1,5 @@
+# leetcode 739. Daily Temperatures
+# 무게 싣는 문제나, 시간 가르는 문제처럼 뒤에서 반복문 돌아서, 누적합을 구하면 훨씬 효율적으로 풀수 있다.... 
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         t = temperatures[::]
@@ -21,4 +23,4 @@ class Solution:
                 if num == 1 :
                     break
 
-        return answer``
+        return answer
