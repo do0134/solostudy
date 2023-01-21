@@ -1,15 +1,13 @@
-n = int(input())
-i = 1
-arr = list()
-arr2 = list()
+# leetcode 491. Non-decreasing Subsequences
+# https://leetcode.com/problems/non-decreasing-subsequences/description/
 
-while i <= n :
-    if n%i == 0 :
-        if i %2 == 0 :
-            arr.append(i)
-        else :
-            arr2.append(i)
-    i += 1
+class Solution:
+    def findSubsequences(self, nums: List[int]) -> List[List[int]]:
+        answer = list()
 
-print(arr)
-print(arr2)
+        for i in range(2,len(nums)+1) :
+            for j in combinations(nums, i) :
+                if list(j) == sorted(list(j)) and list(j) not in answer :
+                    answer.append(list(j))
+        return sorted(answer)
+
