@@ -19,7 +19,6 @@ class Solution:
             idx, cnt = q.popleft()
             if idx == n - 1:
                 answer = min(cnt, answer)
-                print(answer)
             else:
                 if v[idx + 1] > cnt + 1:
                     v[idx + 1] = cnt + 1
