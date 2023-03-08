@@ -1,4 +1,4 @@
-# 백준 소트
+# 백준  소트
 # https://www.acmicpc.net/problem/1083
 n = int(input())
 arr = list(map(int,input().split()))
