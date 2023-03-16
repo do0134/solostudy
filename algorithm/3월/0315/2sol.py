@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict, deque
 
 n = int(input())
 tree = defaultdict(list)
@@ -9,3 +9,12 @@ for _ in range(n-1) :
     tree[u].append(v)
     tree[v].append(u)
 
+q = deque()
+q.append(1)
+v[1] = 1
+while q :
+    c_friend = q.popleft()
+    for i in tree[c_friend] :
+        if not v[i] :
+            q.append(i)
+        dp[c_friend][1] += min()
