@@ -15,7 +15,6 @@ class BrowserHistory:
         self.idx = len(self.v) - 1
 
     def back(self, steps: int) -> str:
-        print(self.v, steps)
         if self.idx < steps:
             self.idx = 0
             return self.v[0]
