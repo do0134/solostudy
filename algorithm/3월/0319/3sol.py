@@ -17,6 +17,5 @@ class WordDictionary:
                     return True
             else:
                 return False
-
         else:
             return word in self.wd[len(word)]
