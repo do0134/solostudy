@@ -11,8 +11,7 @@ def solution(queue1, queue2):
     if c % 2:
         return answer
 
-    q1 = deque(queue1)
-    q2 = deque(queue2)
+    q1, q2 = deque(queue1), deque(queue2)
     a_cnt = 0
     b_cnt = 0
 
