@@ -6,12 +6,11 @@ from collections import deque
 
 def solution(queue1, queue2):
     answer = -1
-    n = len(queue1)
-    a = sum(queue1)
-    b = sum(queue2)
+    n,a,b = len(queue1), sum(queue1), sum(queue2)
     c = a + b
     if c % 2:
         return answer
+
     q1 = deque(queue1)
     q2 = deque(queue2)
     a_cnt = 0
