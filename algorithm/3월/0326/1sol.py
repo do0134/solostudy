@@ -24,7 +24,7 @@ def solution(queue1, queue2):
             b += temp
             a_cnt += 1
             q2.append(temp)
-        elif b > a and q2:
+        elif b > a :
             temp = q2.popleft()
             b -= temp
             a += temp
