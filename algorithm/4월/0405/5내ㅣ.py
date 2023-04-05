@@ -31,9 +31,7 @@ def dfs(num, s):
 def solution(numbers):
     global combi
 
-    n = len(numbers)
     combi = set()
-    answer = 0
 
     for i in range(len(numbers)):
         if numbers[i] != "0":
