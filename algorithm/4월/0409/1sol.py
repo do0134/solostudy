@@ -3,7 +3,6 @@
 
 from collections import deque
 
-
 def solution(bridge_length, weight, truck_weights):
     answer = 0
     idx = 0
@@ -20,9 +19,9 @@ def solution(bridge_length, weight, truck_weights):
             sum_v += truck_weights[idx]
             idx += 1
 
-    while sum(bridge) != 0:
+    while sum_v != 0:
         answer += 1
-        bridge.popleft()
+        sum_v -= bridge.popleft()
         bridge.append(0)
 
     return answer
