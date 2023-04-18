@@ -3,7 +3,6 @@
 
 from collections import deque
 
-
 def solution(t):
     n = len(t)
     dp = [[0] * i for i in range(1, n + 1)]
