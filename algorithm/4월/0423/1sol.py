@@ -1,3 +1,6 @@
+# 프로그래머스 공원산책
+# https://school.programmers.co.kr/learn/courses/30/lessons/172928
+
 def solution(park, routes):
     start = [-1, -1]
     for i in range(len(park)):
@@ -12,25 +15,27 @@ def solution(park, routes):
         far = int(far)
         d = [0, 0]
         if direction == "E":
-            d = [0, far]
+            d = [0, 1]
         elif direction == "S":
-            d = [far, 0]
+            d = [1, 0]
         elif direction == "W":
-            d = [0, -far]
+            d = [0, -1]
         elif direction == "N":
-            d = [-far, 0]
-        nr = d[0] + start[0]
-        nc = d[1] + start[1]
+            d = [-1, 0]
+        nr = d[0] * far + start[0]
+        nc = d[1] * far + start[1]
         if 0 <= nr < len(park) and 0 <= nc < len(park[0]):
             flag = False
-            for i in range(start[0], nr + 1):
-                for j in range(start[1], nc + 1):
-                    if park[i][j] == "X":
-                        flag = True
-                        break
-                if flag:
+            dr = start[0]
+            dc = start[1]
+            while far > 0:
+                dr += d[0]
+                dc += d[1]
+                if park[dr][dc] == "X":
+                    flag = True
                     break
-            else:
+                far -= 1
+            if not flag:
                 start = [nr, nc]
 
     return start
