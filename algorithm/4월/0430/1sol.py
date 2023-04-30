@@ -48,7 +48,6 @@ for i in range(n) :
                 h1 += 1
     elif h1 > h2+1  :
         while h1 != h2+1 and h1 != h2 :
-            print(h1,h2)
             temp = -h.heappop(heap1)
             h1 -= 1
             h.heappush(heap2, temp)
