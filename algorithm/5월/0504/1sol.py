@@ -6,7 +6,7 @@ pn1 = list()
 pn2 = list()
 check = [0]*(b+1)
 
-for i in range(2,int(b**0.5)+1) :
+for i in range(2,b+1) :
     if not check[i] :
         pn1.append(i)
         check[i] = 1
