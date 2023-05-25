@@ -43,3 +43,4 @@ for t in ("n", "rg") :
     answer.append(cnt)
 
 print(*answer)
+

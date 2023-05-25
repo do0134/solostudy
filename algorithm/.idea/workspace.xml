@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7869dab7-f449-48a2-a77a-a324aa76af8d" name="Changes" comment="백준 16637 괄호 추가하기">
+      <change afterPath="$PROJECT_DIR$/5월/0516/1sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="273c04cd-4033-49e1-b88d-8dc104d80cb0" />
+        <option name="url" value="https://github.com/do0134/solostudy.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mm4cNFiY0BaCFNMz1zuyVj8zF7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.2sol (1)">
+    <configuration name="1sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0513" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0513/1sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0514" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0514/1sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0515" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0515/1sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0515" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0515/2sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0514" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0514/2sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python" type="PythonConfigurationType" factoryName="Python">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python" />
+      <item itemvalue="Python.1sol" />
+      <item itemvalue="Python.1sol (3)" />
+      <item itemvalue="Python.2sol" />
+      <item itemvalue="Python.1sol (2)" />
+      <item itemvalue="Python.2sol (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2sol (1)" />
+        <item itemvalue="Python.1sol" />
+        <item itemvalue="Python.2sol" />
+        <item itemvalue="Python.1sol (3)" />
+        <item itemvalue="Python.1sol (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7869dab7-f449-48a2-a77a-a324aa76af8d" name="Changes" comment="" />
+      <created>1678359511306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678359511306</updated>
+      <workItem from="1678359520762" duration="2847000" />
+      <workItem from="1678411609995" duration="2147000" />
+      <workItem from="1678521897481" duration="76000" />
+      <workItem from="1678617157843" duration="2598000" />
+      <workItem from="1678632077583" duration="1997000" />
+      <workItem from="1678676132359" duration="68000" />
+      <workItem from="1678770292021" duration="1384000" />
+      <workItem from="1678815946729" duration="1239000" />
+      <workItem from="1678879973910" duration="1068000" />
+      <workItem from="1678969697598" duration="2244000" />
+      <workItem from="1679031523436" duration="4464000" />
+      <workItem from="1679098962211" duration="84000" />
+      <workItem from="1679212212965" duration="815000" />
+      <workItem from="1679309420500" duration="2835000" />
+      <workItem from="1679375354044" duration="61000" />
+      <workItem from="1679445798303" duration="624000" />
+      <workItem from="1679634649072" duration="1250000" />
+      <workItem from="1679668778867" duration="2399000" />
+      <workItem from="1679750609175" duration="762000" />
+      <workItem from="1679800040568" duration="817000" />
+      <workItem from="1679909092465" duration="65000" />
+      <workItem from="1679993748400" duration="186000" />
+      <workItem from="1680079237550" duration="5812000" />
+      <workItem from="1680154599824" duration="989000" />
+      <workItem from="1680272667998" duration="1052000" />
+      <workItem from="1680352056331" duration="245000" />
+      <workItem from="1680435200620" duration="434000" />
+      <workItem from="1680502067645" duration="659000" />
+      <workItem from="1680590118006" duration="3294000" />
+      <workItem from="1680661708115" duration="5670000" />
+      <workItem from="1680760771881" duration="2189000" />
+      <workItem from="1680846489561" duration="1498000" />
+      <workItem from="1680954216089" duration="380000" />
+      <workItem from="1681049584096" duration="101000" />
+      <workItem from="1681049716981" duration="50000" />
+      <workItem from="1681130324589" duration="177000" />
+      <workItem from="1681223629272" duration="732000" />
+      <workItem from="1681309495408" duration="1848000" />
+      <workItem from="1681389594938" duration="358000" />
+      <workItem from="1681390529678" duration="150000" />
+      <workItem from="1681483690624" duration="161000" />
+      <workItem from="1681565692056" duration="232000" />
+      <workItem from="1681641667364" duration="161000" />
+      <workItem from="1681645442441" duration="605000" />
+      <workItem from="1681735881173" duration="764000" />
+      <workItem from="1681825425599" duration="2613000" />
+      <workItem from="1681864009054" duration="694000" />
+      <workItem from="1681968705203" duration="445000" />
+      <workItem from="1681980343195" duration="52000" />
+      <workItem from="1683801926211" duration="1352000" />
+      <workItem from="1683856703008" duration="898000" />
+      <workItem from="1683879276963" duration="418000" />
+      <workItem from="1683986609103" duration="709000" />
+      <workItem from="1684038640788" duration="5124000" />
+      <workItem from="1684117309891" duration="5275000" />
+      <workItem from="1684218749915" duration="4240000" />
+    </task>
+    <task id="LOCAL-00042" summary="프로그래머스 괄호변환">
+      <created>1680590725166</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1680590725166</updated>
+    </task>
+    <task id="LOCAL-00043" summary="백준 1520 내리막길">
+      <created>1680610126351</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680610126351</updated>
+    </task>
+    <task id="LOCAL-00044" summary="프로그래머스 모음사전">
+      <created>1680661809849</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1680661809849</updated>
+    </task>
+    <task id="LOCAL-00045" summary="프로그래머스 전력망을 둘로 나누기">
+      <created>1680680339596</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1680680339596</updated>
+    </task>
+    <task id="LOCAL-00046" summary="프로그래머스 피로도">
+      <created>1680684694463</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1680684694463</updated>
+    </task>
+    <task id="LOCAL-00047" summary="프로그래머스 카펫">
+      <created>1680685145570</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1680685145570</updated>
+    </task>
+    <task id="LOCAL-00048" summary="프로그래머스 소수 찾기">
+      <created>1680697228385</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1680697228385</updated>
+    </task>
+    <task id="LOCAL-00049" summary="프로그래머스 소수 찾기">
+      <created>1680697503807</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680697503807</updated>
+    </task>
+    <task id="LOCAL-00050" summary="프로그래머스 폰켓몬">
+      <created>1680760811541</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680760811541</updated>
+    </task>
+    <task id="LOCAL-00051" summary="프로그래머스 전화번호 목록">
+      <created>1680768012292</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1680768012292</updated>
+    </task>
+    <task id="LOCAL-00052" summary="프로그래머스 위장">
+      <created>1680779414819</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1680779414819</updated>
+    </task>
+    <task id="LOCAL-00053" summary="프로그래머스 베스트앨범">
+      <created>1680782786526</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1680782786526</updated>
+    </task>
+    <task id="LOCAL-00054" summary="프로그래머스 같은 숫자는 싫어">
+      <created>1680846591527</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1680846591528</updated>
+    </task>
+    <task id="LOCAL-00055" summary="프로그래머스 기능개발">
+      <created>1680849430034</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1680849430034</updated>
+    </task>
+    <task id="LOCAL-00056" summary="프로그래머스 올바른 괄호">
+      <created>1680849605975</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1680849605975</updated>
+    </task>
+    <task id="LOCAL-00057" summary="프로그래머스 프린터">
+      <created>1680849975461</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1680849975461</updated>
+    </task>
+    <task id="LOCAL-00058" summary="프로그래머스 주식가격">
+      <created>1680954590708</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1680954590709</updated>
+    </task>
+    <task id="LOCAL-00059" summary="프로그래머스 다리를 지나는 트럭">
+      <created>1681049673822</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1681049673822</updated>
+    </task>
+    <task id="LOCAL-00060" summary="프로그래머스 다리를 지나는 트럭">
+      <created>1681049762346</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1681049762346</updated>
+    </task>
+    <task id="LOCAL-00061" summary="프로그래머스 더 맵게">
+      <created>1681130490593</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1681130490594</updated>
+    </task>
+    <task id="LOCAL-00062" summary="프로그래머스 H-Index">
+      <created>1681223791727</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1681223791727</updated>
+    </task>
+    <task id="LOCAL-00063" summary="1sol 실패..">
+      <created>1681311099395</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1681311099396</updated>
+    </task>
+    <task id="LOCAL-00064" summary="프로그래머스 게임 맵 최단거리">
+      <created>1681389651337</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1681389651337</updated>
+    </task>
+    <task id="LOCAL-00065" summary="프로그래머스 요격 시스템">
+      <created>1681390560778</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1681390560779</updated>
+    </task>
+    <task id="LOCAL-00066" summary="프로그래머스 달리기 경주">
+      <created>1681483783109</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1681483783110</updated>
+    </task>
+    <task id="LOCAL-00067" summary="프로그래머스 바탕화면 정리">
+      <created>1681565751705</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1681565751705</updated>
+    </task>
+    <task id="LOCAL-00068" summary="프로그래머스 성격유형 검사하기">
+      <created>1681641793452</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1681641793452</updated>
+    </task>
+    <task id="LOCAL-00069" summary="프로그래머스 연속된 부분 수열의 합">
+      <created>1681645957164</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1681645957164</updated>
+    </task>
+    <task id="LOCAL-00070" summary="프로그래머스 뒤에 있는 큰 수 찾기">
+      <created>1681736020380</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1681736020380</updated>
+    </task>
+    <task id="LOCAL-00071" summary="백준 3584 가장 가까운 공통 조상">
+      <created>1681736603944</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1681736603944</updated>
+    </task>
+    <task id="LOCAL-00072" summary="프로그래머스 최댓값과 최솟값">
+      <created>1681825686973</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1681825686973</updated>
+    </task>
+    <task id="LOCAL-00073" summary="프로그래머스 정수삼각형">
+      <created>1681827531871</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1681827531871</updated>
+    </task>
+    <task id="LOCAL-00074" summary="프로그래머스 정수삼각형">
+      <created>1681827913619</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1681827913619</updated>
+    </task>
+    <task id="LOCAL-00075" summary="프로그래머스 정수삼각형">
+      <created>1681828280788</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1681828280788</updated>
+    </task>
+    <task id="LOCAL-00076" summary="프로그래머스 야근 지수">
+      <created>1681864055411</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1681864055411</updated>
+    </task>
+    <task id="LOCAL-00077" summary="프로그래머스 단어 변환">
+      <created>1681864975903</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1681864975903</updated>
+    </task>
+    <task id="LOCAL-00078" summary="프로그래머스 숫자 게임">
+      <created>1681968758829</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1681968758829</updated>
+    </task>
+    <task id="LOCAL-00079" summary="conflict 해결">
+      <created>1683728559929</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1683728559929</updated>
+    </task>
+    <task id="LOCAL-00080" summary="백준 1476 날짜 계산">
+      <created>1683729265821</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1683729265821</updated>
+    </task>
+    <task id="LOCAL-00081" summary="프로그래머스 시저암호">
+      <created>1683801977912</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1683801977912</updated>
+    </task>
+    <task id="LOCAL-00082" summary="프로그래머스 이상한 문자 만들기">
+      <created>1683802204209</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1683802204209</updated>
+    </task>
+    <task id="LOCAL-00083" summary="프로그래머스 튜플">
+      <created>1683802687451</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1683802687451</updated>
+    </task>
+    <task id="LOCAL-00084" summary="프로그래머스 짝지어 제거하기">
+      <created>1683857027022</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1683857027023</updated>
+    </task>
+    <task id="LOCAL-00085" summary="프로그래머스 등굣길">
+      <created>1683879343954</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1683879343955</updated>
+    </task>
+    <task id="LOCAL-00086" summary="0513 1sol">
+      <created>1683986724072</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1683986724072</updated>
+    </task>
+    <task id="LOCAL-00087" summary="백준 10830 행렬제곱">
+      <created>1684046224570</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1684046224570</updated>
+    </task>
+    <task id="LOCAL-00088" summary="백준 15591 MooTube">
+      <created>1684050722793</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1684050722793</updated>
+    </task>
+    <task id="LOCAL-00089" summary="백준 1182 부분수열의 합">
+      <created>1684118217100</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1684118217100</updated>
+    </task>
+    <task id="LOCAL-00090" summary="백준 16637 괄호 추가하기">
+      <created>1684129409389</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1684129409389</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="프로그래머스 게임 맵 최단거리" />
+    <MESSAGE value="프로그래머스 요격 시스템" />
+    <MESSAGE value="프로그래머스 달리기 경주" />
+    <MESSAGE value="프로그래머스 바탕화면 정리" />
+    <MESSAGE value="프로그래머스 성격유형 검사하기" />
+    <MESSAGE value="프로그래머스 연속된 부분 수열의 합" />
+    <MESSAGE value="프로그래머스 뒤에 있는 큰 수 찾기" />
+    <MESSAGE value="백준 3584 가장 가까운 공통 조상" />
+    <MESSAGE value="프로그래머스 최댓값과 최솟값" />
+    <MESSAGE value="프로그래머스 정수삼각형" />
+    <MESSAGE value="프로그래머스 야근 지수" />
+    <MESSAGE value="프로그래머스 단어 변환" />
+    <MESSAGE value="프로그래머스 숫자 게임" />
+    <MESSAGE value="conflict 해결" />
+    <MESSAGE value="백준 1476 날짜 계산" />
+    <MESSAGE value="프로그래머스 시저암호" />
+    <MESSAGE value="프로그래머스 이상한 문자 만들기" />
+    <MESSAGE value="프로그래머스 튜플" />
+    <MESSAGE value="프로그래머스 짝지어 제거하기" />
+    <MESSAGE value="프로그래머스 등굣길" />
+    <MESSAGE value="0513 1sol" />
+    <MESSAGE value="백준 10830 행렬제곱" />
+    <MESSAGE value="백준 15591 MooTube" />
+    <MESSAGE value="백준 1182 부분수열의 합" />
+    <MESSAGE value="백준 16637 괄호 추가하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 16637 괄호 추가하기" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$1sol__3_.coverage" NAME="1sol (3) Coverage Results" MODIFIED="1684045977335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0514" />
+    <SUITE FILE_PATH="coverage/algorithm$2sol__1_.coverage" NAME="2sol (1) Coverage Results" MODIFIED="1684129462520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0515" />
+    <SUITE FILE_PATH="coverage/1sol_py$1sol.coverage" NAME="1sol Coverage Results" MODIFIED="1681310950562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0412" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol.coverage" NAME="1sol Coverage Results" MODIFIED="1684118103009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0515" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol__3_.coverage" NAME="2sol (3) Coverage Results" MODIFIED="1680092546651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0329" />
+    <SUITE FILE_PATH="coverage/algorithm$2sol__2_.coverage" NAME="2sol (2) Coverage Results" MODIFIED="1683523844992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0508" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__4_.coverage" NAME="1sol (4) Coverage Results" MODIFIED="1683256540243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
+    <SUITE FILE_PATH="coverage/algorithm$1_1.coverage" NAME="1-1 Coverage Results" MODIFIED="1683264945937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol__2_.coverage" NAME="2sol (2) Coverage Results" MODIFIED="1679325506658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0320" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol__1_.coverage" NAME="2sol (1) Coverage Results" MODIFIED="1681736548914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0417" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol.coverage" NAME="2sol Coverage Results" MODIFIED="1680610079573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0404" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__1_.coverage" NAME="1sol (1) Coverage Results" MODIFIED="1683729193413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0510" />
+    <SUITE FILE_PATH="coverage/1sol_py$1sol__1_.coverage" NAME="1sol (1) Coverage Results" MODIFIED="1679309490977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0320" />
+    <SUITE FILE_PATH="coverage/1sol_py$1sol__2_.coverage" NAME="1sol (2) Coverage Results" MODIFIED="1679446423862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0322" />
+    <SUITE FILE_PATH="coverage/algorithm$2sol.coverage" NAME="2sol Coverage Results" MODIFIED="1684050643394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0514" />
+    <SUITE FILE_PATH="coverage/algorithm$3sol.coverage" NAME="3sol Coverage Results" MODIFIED="1683274755225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__2_.coverage" NAME="1sol (2) Coverage Results" MODIFIED="1683986692184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0513" />
+    <SUITE FILE_PATH="coverage/1sol_py$5.coverage" NAME="5내ㅣ Coverage Results" MODIFIED="1680686904210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0405" />
+    <SUITE FILE_PATH="coverage/1sol_py$3sol.coverage" NAME="3sol Coverage Results" MODIFIED="1678771514162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0314" />
+  </component>
+</project>
