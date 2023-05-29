@@ -18,4 +18,5 @@ for s, e in arr :
     answer += cnt
     temp += cnt * l
 
+
 print(answer)
