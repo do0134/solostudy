@@ -40,14 +40,15 @@ for i in range(len(num)) :
     for cr, cc in crazy :
         arr[cr][cc] = "."
         n_cr, n_cc = cr, cc
-        min_v = abs(cr-nr) + abs(cc-nc)
-        for j in range(1,10) :
-            if 0 <= cr+dr[j] < r and 0 <= cc+dc[j] < c :
-                if min_v > abs(cr+dr[j]-nr) + abs(cc+dc[j]-nc) :
-                    min_v = abs(cr+dr[j]-nr) + abs(cc+dc[j]-nc)
-                    n_cr, n_cc = cr+dr[j], cc+dc[j]
-            else :
-                continue
+        if n_cr > nr :
+            n_cr -= 1
+        elif n_cr < nr :
+            n_cr += 1
+
+        if n_cc > nc :
+            n_cc -= 1
+        elif n_cc < nc :
+            n_cc += 1
 
         if arr[n_cr][n_cc] == "I" :
             print(f"kraj {i+1}")
