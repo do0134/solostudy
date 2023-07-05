@@ -95,7 +95,11 @@ print(max_size)
 answer = max_size
 for i in range(n):
     for j in range(m):
-        next_size = break_wall(i,j)
-        answer = max(answer, next_size)
+        if 0 <= i-1 and room_info[i][j] != room_info[i-1][j]:
+            answer = max(answer, room_size[room_info[i][j]] + room_size[room_info[i-1][j]])
+        if 0 <= j-1 and room_info[i][j] != room_info[i][j-1]:
+            answer = max(answer, room_size[room_info[i][j]] + room_size[room_info[i][j-1]])
+        # next_size = break_wall(i,j)
+        # answer = max(answer, next_size)
 
 print(answer)
