@@ -4,10 +4,10 @@
 from collections import defaultdict
 
 n, m = map(int,input().split())
-meats = [list(map(int,input().split())) for _ in range(n)]
 meats_dict = defaultdict(list)
 
-for w,c in meats:
+for _ in range(n):
+    w,c = map(int,input().split())
     meats_dict[c].append(w)
 
 answer = 2147483648
@@ -28,6 +28,7 @@ for i in sorted(meats_dict.keys()):
                     break
         else:
             answer = min(answer, i)
+            break
 
 if answer == 2147483648:
     print(-1)
