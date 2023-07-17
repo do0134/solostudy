@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7869dab7-f449-48a2-a77a-a324aa76af8d" name="Changes" comment="백준 16637 괄호 추가하기">
-      <change afterPath="$PROJECT_DIR$/5월/0516/1sol.py" afterDir="false" />
+    <list default="true" id="7869dab7-f449-48a2-a77a-a324aa76af8d" name="Changes" comment="백준 2660 회장뽑기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +52,12 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.2sol (1)">
-    <configuration name="1sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1sol (2)">
+    <configuration name="1-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,12 +65,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0513" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6월/0628" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0513/1sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6월/0628/1-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,12 +87,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0514" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7월/0705" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0514/1sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7월/0705/1sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7월/0713" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7월/0713/1sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,34 +131,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0515" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7월/0701" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0515/1sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0515" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0515/2sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7월/0701/1sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,12 +153,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5월/0514" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6월/0628" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5월/0514/2sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6월/0628/2sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +191,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python" />
-      <item itemvalue="Python.1sol" />
-      <item itemvalue="Python.1sol (3)" />
-      <item itemvalue="Python.2sol" />
       <item itemvalue="Python.1sol (2)" />
-      <item itemvalue="Python.2sol (1)" />
+      <item itemvalue="Python.1sol (1)" />
+      <item itemvalue="Python.1sol" />
+      <item itemvalue="Python.2sol" />
+      <item itemvalue="Python.1-1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2sol (1)" />
+        <item itemvalue="Python.1sol (2)" />
+        <item itemvalue="Python.1sol (1)" />
         <item itemvalue="Python.1sol" />
         <item itemvalue="Python.2sol" />
-        <item itemvalue="Python.1sol (3)" />
-        <item itemvalue="Python.1sol (2)" />
+        <item itemvalue="Python.1-1" />
       </list>
     </recent_temporary>
   </component>
@@ -271,62 +271,17 @@
       <workItem from="1684038640788" duration="5124000" />
       <workItem from="1684117309891" duration="5275000" />
       <workItem from="1684218749915" duration="4240000" />
-    </task>
-    <task id="LOCAL-00042" summary="프로그래머스 괄호변환">
-      <created>1680590725166</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1680590725166</updated>
-    </task>
-    <task id="LOCAL-00043" summary="백준 1520 내리막길">
-      <created>1680610126351</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1680610126351</updated>
-    </task>
-    <task id="LOCAL-00044" summary="프로그래머스 모음사전">
-      <created>1680661809849</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1680661809849</updated>
-    </task>
-    <task id="LOCAL-00045" summary="프로그래머스 전력망을 둘로 나누기">
-      <created>1680680339596</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1680680339596</updated>
-    </task>
-    <task id="LOCAL-00046" summary="프로그래머스 피로도">
-      <created>1680684694463</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1680684694463</updated>
-    </task>
-    <task id="LOCAL-00047" summary="프로그래머스 카펫">
-      <created>1680685145570</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1680685145570</updated>
-    </task>
-    <task id="LOCAL-00048" summary="프로그래머스 소수 찾기">
-      <created>1680697228385</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1680697228385</updated>
-    </task>
-    <task id="LOCAL-00049" summary="프로그래머스 소수 찾기">
-      <created>1680697503807</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1680697503807</updated>
+      <workItem from="1684996331073" duration="217000" />
+      <workItem from="1685006313786" duration="2690000" />
+      <workItem from="1686405198640" duration="2169000" />
+      <workItem from="1687914737871" duration="4596000" />
+      <workItem from="1687925514206" duration="442000" />
+      <workItem from="1687926605151" duration="1767000" />
+      <workItem from="1688180668570" duration="859000" />
+      <workItem from="1688519737592" duration="2700000" />
+      <workItem from="1688523582126" duration="336000" />
+      <workItem from="1689227457746" duration="2127000" />
+      <workItem from="1689246160984" duration="218000" />
     </task>
     <task id="LOCAL-00050" summary="프로그래머스 폰켓몬">
       <created>1680760811541</created>
@@ -615,21 +570,69 @@
       <option name="project" value="LOCAL" />
       <updated>1684129409389</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="백준 16918 봄버맨">
+      <created>1685016814500</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1685016814500</updated>
+    </task>
+    <task id="LOCAL-00092" summary="백준 13335 트럭">
+      <created>1686407366650</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1686407366650</updated>
+    </task>
+    <task id="LOCAL-00093" summary="백준 2632 피자판매">
+      <created>1687919873448</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1687919873448</updated>
+    </task>
+    <task id="LOCAL-00094" summary="백준 17609 회문">
+      <created>1687928339308</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1687928339308</updated>
+    </task>
+    <task id="LOCAL-00095" summary="백준 1459 걷기">
+      <created>1688181522528</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1688181522528</updated>
+    </task>
+    <task id="LOCAL-00096" summary="백준 2234 성곽">
+      <created>1688523396548</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1688523396548</updated>
+    </task>
+    <task id="LOCAL-00097" summary="백준 2234 성곽 - 벽부수기 최적화">
+      <created>1688523836196</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1688523836196</updated>
+    </task>
+    <task id="LOCAL-00098" summary="백준 2660 회장뽑기">
+      <created>1689229340183</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1689229340183</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="프로그래머스 게임 맵 최단거리" />
-    <MESSAGE value="프로그래머스 요격 시스템" />
-    <MESSAGE value="프로그래머스 달리기 경주" />
-    <MESSAGE value="프로그래머스 바탕화면 정리" />
-    <MESSAGE value="프로그래머스 성격유형 검사하기" />
-    <MESSAGE value="프로그래머스 연속된 부분 수열의 합" />
-    <MESSAGE value="프로그래머스 뒤에 있는 큰 수 찾기" />
-    <MESSAGE value="백준 3584 가장 가까운 공통 조상" />
     <MESSAGE value="프로그래머스 최댓값과 최솟값" />
     <MESSAGE value="프로그래머스 정수삼각형" />
     <MESSAGE value="프로그래머스 야근 지수" />
@@ -647,27 +650,35 @@
     <MESSAGE value="백준 15591 MooTube" />
     <MESSAGE value="백준 1182 부분수열의 합" />
     <MESSAGE value="백준 16637 괄호 추가하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 16637 괄호 추가하기" />
+    <MESSAGE value="백준 16918 봄버맨" />
+    <MESSAGE value="백준 13335 트럭" />
+    <MESSAGE value="백준 2632 피자판매" />
+    <MESSAGE value="백준 17609 회문" />
+    <MESSAGE value="백준 1459 걷기" />
+    <MESSAGE value="백준 2234 성곽" />
+    <MESSAGE value="백준 2234 성곽 - 벽부수기 최적화" />
+    <MESSAGE value="백준 2660 회장뽑기" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 2660 회장뽑기" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithm$1sol__3_.coverage" NAME="1sol (3) Coverage Results" MODIFIED="1684045977335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0514" />
-    <SUITE FILE_PATH="coverage/algorithm$2sol__1_.coverage" NAME="2sol (1) Coverage Results" MODIFIED="1684129462520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0515" />
-    <SUITE FILE_PATH="coverage/1sol_py$1sol.coverage" NAME="1sol Coverage Results" MODIFIED="1681310950562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0412" />
-    <SUITE FILE_PATH="coverage/algorithm$1sol.coverage" NAME="1sol Coverage Results" MODIFIED="1684118103009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0515" />
-    <SUITE FILE_PATH="coverage/1sol_py$2sol__3_.coverage" NAME="2sol (3) Coverage Results" MODIFIED="1680092546651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0329" />
-    <SUITE FILE_PATH="coverage/algorithm$2sol__2_.coverage" NAME="2sol (2) Coverage Results" MODIFIED="1683523844992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0508" />
-    <SUITE FILE_PATH="coverage/algorithm$1sol__4_.coverage" NAME="1sol (4) Coverage Results" MODIFIED="1683256540243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
-    <SUITE FILE_PATH="coverage/algorithm$1_1.coverage" NAME="1-1 Coverage Results" MODIFIED="1683264945937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
-    <SUITE FILE_PATH="coverage/1sol_py$2sol__2_.coverage" NAME="2sol (2) Coverage Results" MODIFIED="1679325506658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0320" />
-    <SUITE FILE_PATH="coverage/1sol_py$2sol__1_.coverage" NAME="2sol (1) Coverage Results" MODIFIED="1681736548914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0417" />
-    <SUITE FILE_PATH="coverage/1sol_py$2sol.coverage" NAME="2sol Coverage Results" MODIFIED="1680610079573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0404" />
-    <SUITE FILE_PATH="coverage/algorithm$1sol__1_.coverage" NAME="1sol (1) Coverage Results" MODIFIED="1683729193413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0510" />
-    <SUITE FILE_PATH="coverage/1sol_py$1sol__1_.coverage" NAME="1sol (1) Coverage Results" MODIFIED="1679309490977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0320" />
-    <SUITE FILE_PATH="coverage/1sol_py$1sol__2_.coverage" NAME="1sol (2) Coverage Results" MODIFIED="1679446423862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0322" />
-    <SUITE FILE_PATH="coverage/algorithm$2sol.coverage" NAME="2sol Coverage Results" MODIFIED="1684050643394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0514" />
     <SUITE FILE_PATH="coverage/algorithm$3sol.coverage" NAME="3sol Coverage Results" MODIFIED="1683274755225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
-    <SUITE FILE_PATH="coverage/algorithm$1sol__2_.coverage" NAME="1sol (2) Coverage Results" MODIFIED="1683986692184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0513" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol.coverage" NAME="1sol Coverage Results" MODIFIED="1688181246314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7월/0701" />
+    <SUITE FILE_PATH="coverage/1sol_py$1sol__1_.coverage" NAME="1sol (1) Coverage Results" MODIFIED="1679309490977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0320" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__1_.coverage" NAME="1sol (1) Coverage Results" MODIFIED="1688523913338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7월/0705" />
+    <SUITE FILE_PATH="coverage/1sol_py$1sol__2_.coverage" NAME="1sol (2) Coverage Results" MODIFIED="1679446423862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0322" />
+    <SUITE FILE_PATH="coverage/1sol_py$1sol.coverage" NAME="1sol Coverage Results" MODIFIED="1681310950562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0412" />
     <SUITE FILE_PATH="coverage/1sol_py$5.coverage" NAME="5내ㅣ Coverage Results" MODIFIED="1680686904210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0405" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol.coverage" NAME="2sol Coverage Results" MODIFIED="1680610079573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0404" />
     <SUITE FILE_PATH="coverage/1sol_py$3sol.coverage" NAME="3sol Coverage Results" MODIFIED="1678771514162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0314" />
+    <SUITE FILE_PATH="coverage/algorithm$2sol.coverage" NAME="2sol Coverage Results" MODIFIED="1687928219219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6월/0628" />
+    <SUITE FILE_PATH="coverage/algorithm$2sol__2_.coverage" NAME="2sol (2) Coverage Results" MODIFIED="1683523844992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0508" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol__2_.coverage" NAME="2sol (2) Coverage Results" MODIFIED="1679325506658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0320" />
+    <SUITE FILE_PATH="coverage/algorithm$1_1.coverage" NAME="1-1 Coverage Results" MODIFIED="1687925918314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6월/0628" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__4_.coverage" NAME="1sol (4) Coverage Results" MODIFIED="1683256540243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0505" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol__1_.coverage" NAME="2sol (1) Coverage Results" MODIFIED="1681736548914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4월/0417" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__2_.coverage" NAME="1sol (2) Coverage Results" MODIFIED="1689229118380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7월/0713" />
+    <SUITE FILE_PATH="coverage/1sol_py$2sol__3_.coverage" NAME="2sol (3) Coverage Results" MODIFIED="1680092546651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3월/0329" />
+    <SUITE FILE_PATH="coverage/algorithm$2sol__1_.coverage" NAME="2sol (1) Coverage Results" MODIFIED="1684129462520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5월/0515" />
+    <SUITE FILE_PATH="coverage/algorithm$1sol__3_.coverage" NAME="1sol (3) Coverage Results" MODIFIED="1687919818291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6월/0628" />
   </component>
 </project>
