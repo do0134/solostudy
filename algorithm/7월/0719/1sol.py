@@ -23,6 +23,9 @@ q.append((1,0))
 while q:
     cr, cnt = q.popleft()
 
+    if cnt >= v[100]:
+        continue
+
     for i in range(1,7):
         nr = i + cr
         if nr < 100 and v[nr] > cnt+1:
