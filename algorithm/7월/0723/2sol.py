@@ -1,5 +1,5 @@
 # 백준 2003 수들의 합2
-#
+# https://www.acmicpc.net/problem/2003
 
 n, m = map(int,input().split())
 arr = list(map(int,input().split()))
