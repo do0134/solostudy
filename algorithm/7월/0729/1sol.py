@@ -13,19 +13,12 @@ def square_number(r,c):
         return c//3+7
 
 
-def solve(r,c):
-    if r == 9:
+def solve(idx):
+    if idx == len(empty_list):
         for i in range(9):
             print(*sudoku[i])
         exit()
-
-    next_r, next_c = r, c+1
-    if next_c == 9:
-        next_r = r+1
-        next_c = 0
-
-    if sudoku[r][c]:
-        solve(next_r, next_c)
+    r,c = empty_list[idx]
 
     if not sudoku[r][c]:
         s_num = square_number(r,c)
@@ -36,7 +29,7 @@ def solve(r,c):
                 x[r].append(i)
                 y[c].append(i)
                 square[s_num].append(i)
-                solve(next_r,next_c)
+                solve(idx+1)
                 sudoku[r][c] = 0
                 x[r].pop()
                 y[c].pop()
@@ -47,6 +40,7 @@ sudoku = [list(map(int,input().split())) for _ in range(9)]
 x = defaultdict(list)
 y = defaultdict(list)
 square = defaultdict(list)
+empty_list = list()
 
 for i in range(9):
     for j in range(9):
@@ -54,5 +48,6 @@ for i in range(9):
             x[i].append(sudoku[i][j])
             y[j].append(sudoku[i][j])
             square[square_number(i,j)].append(sudoku[i][j])
-
-solve(0,0)
+        else:
+            empty_list.append((i,j))
+solve(0)
