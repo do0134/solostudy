@@ -35,7 +35,7 @@ while idx <= k:
     if color[idx]:
         break
     idx += 1
-for x,y in color[1]:
-    dfs(1,x,y,x,y,0)
+for x,y in color[idx]:
+    dfs(idx,x,y,x,y,0)
 
 print(answer)
