@@ -2,9 +2,10 @@
 # https://www.acmicpc.net/problem/2252
 
 from collections import defaultdict
+import sys
 
 arr = list()
-n,m = map(int,input().split())
+n,m = map(int,sys.stdin.readline().rstrip().split())
 big_num = [0]*(n+1)
 big = defaultdict(list)
 
@@ -15,7 +16,7 @@ for _ in range(m):
 
 for i in range(1,n+1):
     if not big_num[i]:
-        arr.append(i)
+        arr += [i]
 
 answer = list()
 while arr:
@@ -24,6 +25,6 @@ while arr:
     for next_idx in big[now_idx]:
         big_num[next_idx] -= 1
         if not big_num[next_idx]:
-            arr.append(next_idx)
+            arr += [next_idx]
 
 print(' '.join(answer))
