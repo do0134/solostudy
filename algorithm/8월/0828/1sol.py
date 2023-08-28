@@ -1,4 +1,5 @@
 # 백준 3085 사탕 게임
+# https://www.acmicpc.net/problem/3085
 
 n = int(input())
 bomboni = [list(input()) for _ in range(n)]
