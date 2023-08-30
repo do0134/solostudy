@@ -10,13 +10,13 @@ v = [[0]*m for _ in range(n)]
 arr = [list(input()) for _ in range(n)]
 
 
-def bfs(r,c) -> bool:
+def dfs(r,c) -> bool:
     q = deque()
     q.append((r,c,-1,-1))
     v[r][c] = 1
     cnt = 1
     while q:
-        cr, cc, pr, pc = q.popleft()
+        cr, cc, pr, pc = q.pop()
         flag = False
         for d in range(4):
             nr,nc = cr+dr[d],cc+dc[d]
@@ -39,7 +39,7 @@ def bfs(r,c) -> bool:
 for i in range(n):
     for j in range(m):
         if not v[i][j]:
-            if bfs(i,j):
+            if dfs(i,j):
                 print("Yes")
                 exit()
 
