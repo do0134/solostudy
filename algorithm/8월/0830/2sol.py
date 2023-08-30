@@ -14,24 +14,18 @@ def dfs(r,c) -> bool:
     q = deque()
     q.append((r,c,-1,-1))
     v[r][c] = 1
-    cnt = 1
     while q:
         cr, cc, pr, pc = q.pop()
-        flag = False
         for d in range(4):
             nr,nc = cr+dr[d],cc+dc[d]
             if 0 <= nr < n and 0 <= nc < m and arr[nr][nc] == arr[cr][cc]:
                 if not v[nr][nc]:
-                    flag = True
-                    cnt += 1
                     q.append((nr,nc,cr,cc))
                     v[nr][nc] = 1
                 elif v[nr][nc] and pr == nr and pc == nc:
                     continue
-                elif v[nr][nc] and cnt >= 4:
+                elif v[nr][nc]:
                     return True
-        if not flag:
-            cnt -= 1
 
     return False
 
