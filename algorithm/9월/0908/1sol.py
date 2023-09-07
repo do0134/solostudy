@@ -7,7 +7,7 @@ input = sys.stdin.readline
 sys.setrecursionlimit(10**9)
 
 
-def back_tracking(num,answer_list,cnt):
+def back_tracking(num: int,answer_list: list,cnt: int):
     global v, flag
     if flag:
         return
