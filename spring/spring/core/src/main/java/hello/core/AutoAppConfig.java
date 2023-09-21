@@ -1,5 +1,8 @@
 package hello.core;
 
+import hello.core.member.MemberRepository;
+import hello.core.member.MemoryMemberRepository;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
@@ -22,5 +25,15 @@ import org.springframework.context.annotation.FilterType;
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 )
 public class AutoAppConfig {
+    // 빈 이름이 중복되면 에러가 남
+    // 대신 수동빈과 자동빈이 충돌한다면 수동 빈이 우선권을 가지고 자동 빈을 overriding함
+    // 그런데... 정말 잡기 어려운 버그가 만들어짐 왜? 여러 설정이 꼬여버림
+    // 그래서 스프링부트에서는 오류가 나도록 바꿔버림 -> 애매한 거보단 오류내는 게 맞다!
+    // Test는 통과하지만, Springboot로 Run하면 에러남!
+    // 대신 bean-definition-overriding을 설정할 수 있도록!
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 
 }
