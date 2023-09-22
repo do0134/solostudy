@@ -26,6 +26,8 @@ dependencies {
 	implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 	implementation 'junit:junit:4.13.1'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'jakarta.inject:jakarta.inject-api:2.0.1'
 }
 
 configurations {
