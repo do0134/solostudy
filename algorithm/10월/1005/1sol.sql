@@ -1,4 +1,4 @@
--- 레스토랑 웨이터 팁
+-- solvesql 레스토랑 웨이터 팁
 
 select
   day,
