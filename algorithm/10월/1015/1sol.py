@@ -1,7 +1,9 @@
 # 백준 20056 마법사 상어와 파이어볼
 
 from collections import defaultdict
+import sys
 
+input = sys.stdin.readline
 n,m,k = map(int,input().split())
 
 dr = [-1,-1,0,1,1,1,0,-1]
