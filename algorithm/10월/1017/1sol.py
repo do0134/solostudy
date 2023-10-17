@@ -2,6 +2,7 @@
 
 from collections import defaultdict
 
+
 def solution(weights):
     answer = 0
 
