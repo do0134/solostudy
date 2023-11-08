@@ -3,6 +3,7 @@
 
 import heapq as hq
 
+
 def solution(jobs):
     answer = 0
     n = len(jobs)
