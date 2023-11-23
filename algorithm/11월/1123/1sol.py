@@ -38,12 +38,7 @@ while heap:
         if idx[next_value] <= 0:
             hq.heappush(heap, next_value)
             v[next_value] = 1
-    # TODO: 2. 없다면 가장 쉬운 문제를 풀텐데, 가장 쉬운 문제를 풀기 전, 먼저 푸는 것이 좋은 문제가 존재하는지
-    # TODO: heap이 비었다면 넣을 수 있는 value 체크해주기
-    if not heap:
-        for i in range(1,n+1):
-            if not v[i] and not idx[i]:
-                hq.heappush(heap,i)
+
 
 print(*answer)
 
