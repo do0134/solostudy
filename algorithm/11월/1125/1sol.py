@@ -24,7 +24,7 @@ for i in range(max_v+1):
         for j in range(n):
             q = deque()
             
-            if maps[i][j] > 1 and not v[(i,j)]:
+            if maps[i][j] > 1 and not v[(i, j)]:
                 maps[i][j] -= 1
                 q.append((i,j))
                 v[(i,j)] = True
@@ -33,9 +33,9 @@ for i in range(max_v+1):
                     cr,cc = q.popleft()
                     for d in range(4):
                         nr,nc = cr+dr[d], cc+dc[d]
-                        if 0 <= nr < n and 0 <= nc < n and not v[(nr,nc)] and maps[nr][nc] > 1:
-                            v[(nr,nc)] = True
-                            q.append((nr,nc))
+                        if 0 <= nr < n and 0 <= nc < n and not v[(nr, nc)] and maps[nr][nc] > 1:
+                            v[(nr, nc)] = True
+                            q.append((nr, nc))
                 
                 cnt += 1
             else:
