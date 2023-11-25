@@ -15,7 +15,7 @@ for i in range(n):
     max_v = max(max_v, max(arr))
     maps.append(arr)
 
-answer = 0
+answer = 1
 
 for i in range(max_v+1):
     v = defaultdict(bool)
@@ -32,7 +32,7 @@ for i in range(max_v+1):
                 while q:
                     cr,cc = q.popleft()
                     for d in range(4):
-                        nr,nc = cr+dr[d] ,cc+dc[d]
+                        nr,nc = cr+dr[d], cc+dc[d]
                         if 0 <= nr < n and 0 <= nc < n and not v[(nr,nc)] and maps[nr][nc] > 1:
                             v[(nr,nc)] = True
                             q.append((nr,nc))
@@ -40,9 +40,6 @@ for i in range(max_v+1):
                 cnt += 1
             else:
                 maps[i][j] -= 1
-    if answer > cnt:
-        break
-    else:
-        answer = cnt
+    answer = max(cnt, answer)
 
 print(answer)
