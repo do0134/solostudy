@@ -19,7 +19,7 @@ idx = 1
 
 while start:
     s,e,l = heapq.heappop(start)
-    # print(s,e,l, lecture)
+
     if lecture and lecture[0][0] <= s:
         next_time = heapq.heappop(lecture)
         room[l] = next_time[1]
