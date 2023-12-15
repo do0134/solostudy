@@ -1,4 +1,5 @@
-# https://www.acmicpc.net/problem/1109 못풂 - 문제 잘못읽었다...
+# 백준 1109 섬
+# https://www.acmicpc.net/problem/1109
 
 from collections import defaultdict, deque
 
@@ -33,7 +34,7 @@ def bfs():
                 idx += 1
 
 
-def check_height(now_island, now_idx):
+def check_out_boundary(now_island, now_idx):
     que = deque(now_island)
     visit = [[0]*m for _ in range(n)]
     while que:
@@ -49,25 +50,57 @@ def check_height(now_island, now_idx):
     return False
 
 
+def check_inside(out_island:list,current_idx:int, parent:int, same_height:set):
+    q = deque()
+    visit = [[0]*m for _ in range(n)]
+    q.append(out_island[0])
+    inside_island = set()
+    value = 1
+
+    while q:
+        cr, cc= q.popleft()
+        for d in range(4):
+            nr,nc = cr+dr[d], cc+dc[d]
+            if 0<= nr < n and 0<= nc < m and not visit[nr][nc]:
+                if maps[nr][nc] == ".":
+                    visit[nr][nc] = 1
+                    q.append((nr,nc))
+                elif v[nr][nc] == current_idx:
+                    visit[nr][nc] = 1
+                    q.append((nr,nc))
+                elif v[nr][nc] != parent and v[nr][nc] not in same_height and not second_check[v[nr][nc]]:
+                    inside_island.add(v[nr][nc])
+
+    second_check[current_idx] = True
+    max_v = 0
+    for next_island in inside_island:
+        max_v = max(check_inside(island[next_island], next_island, current_idx, inside_island),max_v)
+    value += max_v
+    height[current_idx] = value - 1
+
+    return value
+
+
 bfs()
 
 if idx == 1:
     print(-1)
 else:
-    answer = [0]
     check = defaultdict(bool)
-    height = 0
-    cnt = 0
-    while cnt != idx-1:
-        for i in range(1,idx):
-            if check_height(island[i], i):
-                check[i] = True
-                answer[height] += 1
-                cnt += 1
+    height = defaultdict(int)
+    second_check = [0]*idx
+    for i in range(1,idx):
+        if check_out_boundary(island[i], i):
+            check[i] = True
+            second_check[i] = 1
 
-        height += 1
-        answer.append(0)
+    h = 0
+    for i in range(1,idx):
+        if check[i]:
+            h = max(check_inside(island[i],i,-1,set()), h)
 
-    if not answer[-1]:
-        answer.pop()
+    answer = [0]*h
+    for i in range(1,idx):
+        answer[height[i]] += 1
+
     print(*answer)
