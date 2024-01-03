@@ -5,7 +5,7 @@ from collections import defaultdict
 
 
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
         negative = list()
         positive = list()
         zeros = list()
