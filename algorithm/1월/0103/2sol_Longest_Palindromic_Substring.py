@@ -15,17 +15,19 @@ class Solution:
 
         n = len(s)
         max_len = 1
-        answer = s[0]
+        answer = [0, 0]
 
         for i in range(n):
             if n - 1 - i < max_len:
                 break
-            for j in range(i + max_len, n):
+            j = i + max_len
+            while j < n:
                 if max_len > j - i + 1:
-                    continue
+                    j = i + max_len
                 if find_palindrom(s, i, j):
                     if max_len < j - i + 1:
                         max_len = j - i + 1
-                        answer = s[i:j + 1]
+                        answer = [i, j]
+                j += 1
 
-        return answer
+        return s[answer[0]:answer[1] + 1]
