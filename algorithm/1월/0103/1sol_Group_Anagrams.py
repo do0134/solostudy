@@ -5,15 +5,16 @@ from collections import defaultdict
 
 
 class Solution:
-    def __init__(self):
-        self.answer_dict = defaultdict(list)
-        self.answer_list = list()
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+        answer_dict = defaultdict(list)
+        answer_list = list()
 
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         for s in strs:
-            self.answer_dict["".join(sorted(s))].append(s)
+            answer_dict["".join(sorted(s))].append(s)
 
-        for key in self.answer_dict.keys():
-            self.answer_list.append(self.answer_dict[key])
+        for key in answer_dict.keys():
+            answer_list.append(answer_dict[key])
 
-        return self.answer_list
+        return answer_list
+
+
