@@ -5,11 +5,14 @@ from collections import defaultdict
 
 
 class Solution:
+    # todo: 1. 주어진 배열의 인자 중 3개의 합이 0이 되는 집합
+    # todo: 2. 집합 중 중복된 것이 존재해선 안 된다.
     def threeSum(self, nums: list[int]) -> list[list[int]]:
+        # 음수, 0, 양수를 분류
         negative = list()
         positive = list()
         zeros = list()
-
+        # 한 자리수 계산을 위한 set
         n = set()
         p = set()
 
@@ -26,6 +29,7 @@ class Solution:
         answer = list()
         v = defaultdict(bool)
 
+        # 0이 3개 이상이라면 0,0,0
         if len(zeros) >= 3:
             answer.append([0, 0, 0])
 
