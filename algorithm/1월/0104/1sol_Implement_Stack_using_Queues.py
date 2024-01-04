@@ -1,20 +1,26 @@
 # Leetcode 225. Implement Stack using Queues
 # https://leetcode.com/problems/implement-stack-using-queues
 
+from collections import deque
+
+
 class MyStack:
     def __init__(self):
-        self.stack = list()
+        self.q1 = deque()
 
     def push(self, x: int) -> None:
-        self.stack.append(x)
+        self.q1.appendleft(x)
 
     def pop(self) -> int:
-        if not self.stack:
+        if not self.q1:
             return None
-        return self.stack.pop()
+
+        return self.q1.popleft()
 
     def top(self) -> int:
-        return self.stack[-1]
+        return self.q1[0]
 
     def empty(self) -> bool:
-        return bool(not self.stack)
+        if self.q1:
+            return False
+        return True
