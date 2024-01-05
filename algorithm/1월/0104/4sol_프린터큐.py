@@ -13,8 +13,6 @@ for _ in range(t):
     q = deque()
     heap = list()
 
-    max_v = 0
-
     for i in range(n):
         q.append((arr[i],i))
         hq.heappush(heap,-arr[i])
