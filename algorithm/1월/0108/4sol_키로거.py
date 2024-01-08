@@ -2,7 +2,6 @@
 
 from collections import deque
 
-
 def solve(s):
     left = deque()
     right = deque()
