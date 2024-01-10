@@ -5,7 +5,7 @@ class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         global answer
 
-        answer = set()
+        answer = list()
 
         nums = [i for i in range(1, n + 1)]
 
@@ -15,7 +15,7 @@ class Solution:
         def back_tracking(nums, combi, idx):
             global answer
             if len(combi) == k:
-                answer.add(copy.deepcopy(tuple(sorted(combi))))
+                answer.append(combi[:])
                 return
             elif len(combi) + len(nums) - idx < k:
                 return
@@ -25,4 +25,4 @@ class Solution:
 
         back_tracking(nums, [], -1)
 
-        return list(answer)
+        return answer
