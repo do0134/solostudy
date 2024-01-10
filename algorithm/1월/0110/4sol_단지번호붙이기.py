@@ -1,7 +1,7 @@
 # 백준 2667 단지번호붙이기
 # https://www.acmicpc.net/problem/2667
 
-from collections import deque, defaultdict
+from collections import deque
 
 dr = [1,-1,0,0]
 dc = [0,0,1,-1]
