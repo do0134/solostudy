@@ -25,6 +25,9 @@ answer = 0
 while heap:
     min_w, now_idx = hq.heappop(heap)
 
+    if now_idx == E:
+        break
+
     for next_w, next_idx in island[now_idx]:
         weight = max(next_w, min_w)
         if v[next_idx] > weight:
