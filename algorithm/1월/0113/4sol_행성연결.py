@@ -15,13 +15,15 @@ v = [0]*n
 heap = list()
 hq.heappush(heap, (0,0))
 answer = 0
+edge = 0
 
-while heap:
+while edge < n:
     cost, now_idx = hq.heappop(heap)
 
     if v[now_idx]:
         continue
 
+    edge += 1
     v[now_idx] = 1
     answer += cost
 
