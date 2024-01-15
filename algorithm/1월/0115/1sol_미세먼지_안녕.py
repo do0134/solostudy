@@ -103,7 +103,8 @@ while time < t:
     after_move = move_dust(dust)
     now = clean_air(after_move, air_flow)
     set_room(now)
-
+    if not dust:
+        break
     time += 1
 
 answer = 0
