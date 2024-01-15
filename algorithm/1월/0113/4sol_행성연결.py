@@ -14,6 +14,8 @@ for i in range(n):
 v = [0]*n
 heap = list()
 hq.heappush(heap, (0,0))
+dp = [int(1e9)]*n
+dp[0] = 0
 answer = 0
 edge = 0
 
@@ -25,11 +27,11 @@ while edge < n:
 
     edge += 1
     v[now_idx] = 1
-    answer += cost
+    answer += dp[now_idx]
 
     for next_idx, next_cost in enumerate(planets[now_idx]):
-
-        if not v[next_idx]:
+        if not v[next_idx] and dp[next_idx] > next_cost:
             hq.heappush(heap, (next_cost, next_idx))
+            dp[next_idx] = next_cost
 
 print(answer)
