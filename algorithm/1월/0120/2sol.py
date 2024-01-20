@@ -1,8 +1,5 @@
 # Leetcode 787. Cheapest Flights Within K Stops
 
-import heapq
-
-
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         dp = [int(1e9)] * n
