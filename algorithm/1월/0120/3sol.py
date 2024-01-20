@@ -21,6 +21,8 @@ dp[k] = 0
 
 while heap:
     now_w, now_idx = hq.heappop(heap)
+    if dp[now_idx] < now_w:
+        continue
 
     for next_w, next_idx in graph[now_idx]:
         if dp[next_idx] > now_w+next_w:
