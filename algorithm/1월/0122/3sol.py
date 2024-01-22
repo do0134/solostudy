@@ -1,4 +1,6 @@
 # Leetcode 198. House Robber
+from typing import List
+
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
