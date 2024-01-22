@@ -47,7 +47,7 @@ def move_col(direct, cr, cc, speed):
         elif speed == cc - 0:
             return cr, 0, 3
 
-        speed = cc - 0
+        speed -= cc - 0
         cc = 0
         direct = 3
 
@@ -81,7 +81,7 @@ def move_row(direct, cr, cc, speed):
         elif speed == cr - 0:
             return 0, cc, 2
 
-        speed = cr - 0
+        speed -= cr - 0
         cr = 0
         direct = 2
 
