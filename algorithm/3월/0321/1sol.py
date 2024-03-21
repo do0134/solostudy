@@ -35,7 +35,6 @@ def calc_date(origin, submit):
         return base_result + Result.PRIOR.value
 
 
-
 def check_month(origin, submit):
     o = origin.split("/")
     s = submit.split("/")
