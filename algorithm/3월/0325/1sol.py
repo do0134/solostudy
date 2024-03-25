@@ -4,8 +4,8 @@ import sys
 from collections import defaultdict
 input = sys.stdin.readline
 
-dr = [1,-1,0,0]
-dc = [0,0,1,-1]
+dr = [1,0,0]
+dc = [0,1,-1]
 
 n, m = map(int,input().split())
 
@@ -35,7 +35,7 @@ def dfs(r,c):
         if value + (4-cnt)*max_v <= answer:
             continue
 
-        for d in range(4):
+        for d in range(3):
             nr,nc = dr[d] + cr, dc[d] + cc
             if 0 <= nr < n and 0 <= nc < m and not v[(nr,nc)]:
                 v[(nr,nc)] = True
