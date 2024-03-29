@@ -33,4 +33,4 @@ for s in string:
                     print(prev_temp)
                     temp = i
 if temp:
-    print(temp,"")
+    print(temp)
