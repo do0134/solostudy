@@ -8,12 +8,9 @@ for i in sys.stdin:
     string.append(i)
 
 temp = ""
-
+hr = "-"*80
 for s in string:
-    s = s.strip()
-    if not s:
-        continue
-    s_list = s.split(" ")
+    s_list = s.split()
     for i in s_list:
         if not i:
             continue
@@ -24,7 +21,7 @@ for s in string:
             if temp:
                 print(temp)
                 temp = ""
-            print("-"*80)
+            print(hr)
 
         else:
             if len(temp) + len(i) > 80:
