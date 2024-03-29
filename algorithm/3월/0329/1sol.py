@@ -22,15 +22,9 @@ for s in string:
                 print(temp)
                 temp = ""
             print(hr)
-
         else:
-            if len(temp) + len(i) > 80:
-                print(temp)
+            if not temp:
                 temp = i
-            elif len(temp) + len(i) == 80:
-                temp += i
-                print(temp)
-                temp = ""
             else:
                 prev_temp = temp
                 temp += i
