@@ -1,7 +1,9 @@
 # 백준 10816 숫자 카드 2
 
 from collections import defaultdict
+import sys
 
+input = sys.stdin.readline
 my_dict = defaultdict(int)
 
 
