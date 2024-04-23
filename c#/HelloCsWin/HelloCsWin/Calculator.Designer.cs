@@ -28,79 +28,203 @@
         /// </summary>
         private void InitializeComponent()
         {
-            HelloLabel = new Label();
-            SumInput1 = new TextBox();
-            SumInput2 = new TextBox();
-            SumNumbers = new Button();
-            SumResult = new TextBox();
+            NumButton1 = new Button();
+            NumButton2 = new Button();
+            NumScreen = new Label();
+            NumButton3 = new Button();
+            PlusBotton = new Button();
+            Result_Button = new Button();
+            NumButton4 = new Button();
+            NumButton5 = new Button();
+            NumButton6 = new Button();
+            NumButton7 = new Button();
+            NumButton8 = new Button();
+            NumButton9 = new Button();
+            NumButton10 = new Button();
+            SubButton = new Button();
             SuspendLayout();
             // 
-            // HelloLabel
+            // NumButton1
             // 
-            HelloLabel.AutoSize = true;
-            HelloLabel.Cursor = Cursors.Hand;
-            HelloLabel.Font = new Font("맑은 고딕", 15F);
-            HelloLabel.Location = new Point(63, 46);
-            HelloLabel.Name = "HelloLabel";
-            HelloLabel.Size = new Size(179, 28);
-            HelloLabel.TabIndex = 0;
-            HelloLabel.Text = "여기를 클릭하세요";
-            HelloLabel.Click += HelloLabel_Click;
+            NumButton1.Location = new Point(16, 173);
+            NumButton1.Name = "NumButton1";
+            NumButton1.Size = new Size(50, 50);
+            NumButton1.TabIndex = 0;
+            NumButton1.Text = "1";
+            NumButton1.UseVisualStyleBackColor = true;
+            NumButton1.Click += NumButton_Click;
             // 
-            // SumInput1
+            // NumButton2
             // 
-            SumInput1.Location = new Point(63, 122);
-            SumInput1.Name = "SumInput1";
-            SumInput1.Size = new Size(100, 23);
-            SumInput1.TabIndex = 1;
+            NumButton2.Location = new Point(88, 173);
+            NumButton2.Name = "NumButton2";
+            NumButton2.Size = new Size(50, 50);
+            NumButton2.TabIndex = 1;
+            NumButton2.Text = "2";
+            NumButton2.UseVisualStyleBackColor = true;
+            NumButton2.Click += NumButton_Click;
             // 
-            // SumInput2
+            // NumScreen
             // 
-            SumInput2.Location = new Point(236, 122);
-            SumInput2.Name = "SumInput2";
-            SumInput2.Size = new Size(100, 23);
-            SumInput2.TabIndex = 2;
+            NumScreen.BorderStyle = BorderStyle.Fixed3D;
+            NumScreen.Font = new Font("맑은 고딕", 12F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            NumScreen.Location = new Point(16, 61);
+            NumScreen.Name = "NumScreen";
+            NumScreen.Size = new Size(280, 30);
+            NumScreen.TabIndex = 3;
+            NumScreen.Text = "0";
+            NumScreen.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // SumNumbers
+            // NumButton3
             // 
-            SumNumbers.Location = new Point(410, 122);
-            SumNumbers.Name = "SumNumbers";
-            SumNumbers.Size = new Size(75, 23);
-            SumNumbers.TabIndex = 3;
-            SumNumbers.Text = "=";
-            SumNumbers.UseVisualStyleBackColor = true;
-            SumNumbers.Click += SumNumbers_Click;
+            NumButton3.Location = new Point(159, 173);
+            NumButton3.Name = "NumButton3";
+            NumButton3.Size = new Size(50, 50);
+            NumButton3.TabIndex = 4;
+            NumButton3.Text = "3";
+            NumButton3.UseVisualStyleBackColor = true;
+            NumButton3.Click += NumButton_Click;
             // 
-            // SumResult
+            // PlusBotton
             // 
-            SumResult.Location = new Point(558, 122);
-            SumResult.Name = "SumResult";
-            SumResult.Size = new Size(100, 23);
-            SumResult.TabIndex = 4;
+            PlusBotton.Location = new Point(233, 173);
+            PlusBotton.Name = "PlusBotton";
+            PlusBotton.Size = new Size(50, 50);
+            PlusBotton.TabIndex = 5;
+            PlusBotton.Text = "+";
+            PlusBotton.UseVisualStyleBackColor = true;
+            PlusBotton.Click += Calc;
+            // 
+            // Result_Button
+            // 
+            Result_Button.Location = new Point(233, 388);
+            Result_Button.Name = "Result_Button";
+            Result_Button.Size = new Size(50, 50);
+            Result_Button.TabIndex = 6;
+            Result_Button.Text = "=";
+            Result_Button.UseVisualStyleBackColor = true;
+            Result_Button.Click += Result_Button_Click;
+            // 
+            // NumButton4
+            // 
+            NumButton4.Location = new Point(16, 243);
+            NumButton4.Name = "NumButton4";
+            NumButton4.Size = new Size(50, 50);
+            NumButton4.TabIndex = 7;
+            NumButton4.Text = "4";
+            NumButton4.UseVisualStyleBackColor = true;
+            NumButton4.Click += NumButton_Click;
+            // 
+            // NumButton5
+            // 
+            NumButton5.Location = new Point(88, 243);
+            NumButton5.Name = "NumButton5";
+            NumButton5.Size = new Size(50, 50);
+            NumButton5.TabIndex = 8;
+            NumButton5.Text = "5";
+            NumButton5.UseVisualStyleBackColor = true;
+            NumButton5.Click += NumButton_Click;
+            // 
+            // NumButton6
+            // 
+            NumButton6.Location = new Point(159, 243);
+            NumButton6.Name = "NumButton6";
+            NumButton6.Size = new Size(50, 50);
+            NumButton6.TabIndex = 9;
+            NumButton6.Text = "6";
+            NumButton6.UseVisualStyleBackColor = true;
+            NumButton6.Click += NumButton_Click;
+            // 
+            // NumButton7
+            // 
+            NumButton7.Location = new Point(16, 318);
+            NumButton7.Name = "NumButton7";
+            NumButton7.Size = new Size(50, 50);
+            NumButton7.TabIndex = 10;
+            NumButton7.Text = "7";
+            NumButton7.UseVisualStyleBackColor = true;
+            NumButton7.Click += NumButton_Click;
+            // 
+            // NumButton8
+            // 
+            NumButton8.Location = new Point(88, 318);
+            NumButton8.Name = "NumButton8";
+            NumButton8.Size = new Size(50, 50);
+            NumButton8.TabIndex = 11;
+            NumButton8.Text = "8";
+            NumButton8.UseVisualStyleBackColor = true;
+            NumButton8.Click += NumButton_Click;
+            // 
+            // NumButton9
+            // 
+            NumButton9.Location = new Point(159, 318);
+            NumButton9.Name = "NumButton9";
+            NumButton9.Size = new Size(50, 50);
+            NumButton9.TabIndex = 12;
+            NumButton9.Text = "9";
+            NumButton9.UseVisualStyleBackColor = true;
+            NumButton9.MouseCaptureChanged += NumButton_Click;
+            // 
+            // NumButton10
+            // 
+            NumButton10.Location = new Point(88, 388);
+            NumButton10.Name = "NumButton10";
+            NumButton10.Size = new Size(50, 50);
+            NumButton10.TabIndex = 13;
+            NumButton10.Text = "0";
+            NumButton10.UseVisualStyleBackColor = true;
+            NumButton10.Click += NumButton_Click;
+            // 
+            // SubButton
+            // 
+            SubButton.Location = new Point(233, 243);
+            SubButton.Name = "SubButton";
+            SubButton.Size = new Size(50, 50);
+            SubButton.TabIndex = 14;
+            SubButton.Text = "-";
+            SubButton.UseVisualStyleBackColor = true;
+            SubButton.Click += Calc;
             // 
             // Calculator
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(SumResult);
-            Controls.Add(SumNumbers);
-            Controls.Add(SumInput2);
-            Controls.Add(SumInput1);
-            Controls.Add(HelloLabel);
+            ClientSize = new Size(308, 450);
+            Controls.Add(SubButton);
+            Controls.Add(NumButton10);
+            Controls.Add(NumButton9);
+            Controls.Add(NumButton8);
+            Controls.Add(NumButton7);
+            Controls.Add(NumButton6);
+            Controls.Add(NumButton5);
+            Controls.Add(NumButton4);
+            Controls.Add(Result_Button);
+            Controls.Add(PlusBotton);
+            Controls.Add(NumButton3);
+            Controls.Add(NumScreen);
+            Controls.Add(NumButton2);
+            Controls.Add(NumButton1);
             Name = "Calculator";
             Text = "Form1";
             Load += Calculator_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label HelloLabel;
-        private TextBox SumInput1;
-        private TextBox SumInput2;
-        private Button SumNumbers;
-        private TextBox SumResult;
+        private Button NumButton1;
+        private Button NumButton2;
+        private Label NumScreen;
+        private Button NumButton3;
+        private Button PlusBotton;
+        private Button Result_Button;
+        private Button NumButton4;
+        private Button NumButton5;
+        private Button NumButton6;
+        private Button NumButton7;
+        private Button NumButton8;
+        private Button NumButton9;
+        private Button NumButton10;
+        private Button SubButton;
     }
 }
