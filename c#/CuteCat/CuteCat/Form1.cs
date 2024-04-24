@@ -2,6 +2,9 @@ namespace CuteCat
 {
     public partial class Form1 : Form
     {
+
+        private Cat MyCat = new Cat("¾ß¿ËÀÌ", 1);
+
         public Form1()
         {
             InitializeComponent();
@@ -11,17 +14,25 @@ namespace CuteCat
         {
 
         }
-    }
 
-    class Cat
-    {
-        string Name;
-        int Age;
-        int Happiness;
-
-        void Play()
+        private void Play_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("³Ä¿Ë");
+            MyCat.Play();
+            CatScreen.Text = MyCat.Express();
+        }
+
+        private void Feed_Click(object sender, EventArgs e)
+        {
+            MyCat.Eat();
+            CatScreen.Text = MyCat.Express();
+        }
+
+        private void Cat_GetBoard(object sender, EventArgs e)
+        {
+            MyCat.GetBored();
+            CatScreen.Text = MyCat.Express();
         }
     }
+
+
 }
